@@ -1,108 +1,1618 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Vivek's World</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico" />
+
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700"
+      rel="stylesheet"
+    />
 
-    <title>Vivek Haridas Profile</title>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <!-- Flaticons  -->
+    <!-- <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" /> -->
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body style="background-color: #3c3c3c;">
-    <div class="container rounded bg-white mt-5 mb-5">
-      <div class="row" style="background-color: #616161;">
-          <div class="col-md-3 border-right" style="background-color: #616161; color: white;">
-              <div class="d-flex flex-column align-items-center text-center p-3 "><img style="margin-bottom: 15px;" class="rounded-circle mt-5" width="150px" src="vivek.jpeg"><span class="font-weight-bold"><b>Vivek Haridas</b></span><span class="font-weight-bold"><b><i class="bi bi-envelope-fill"></i>  vivekharidas68@gmail.com</span></b><span><i class="bi bi-telephone-fill"></i> +91 62380 67368</span><span><i class="bi bi-github"></i> VivekHaridas-01</span><a style="text-decoration: none; color: white;" href="https://www.linkedin.com/in/vivek-haridas-2847521b6/ "><i class="bi bi-linkedin"></i> Vivek Haridas</a><br><h5 class="text-right">About Me</h4>
-              An outgoing student pursuing Artificial Intelligence that would like to build a career in fields related to AI to make
-              life easier for everyone. A dedicated and hardworking individual that craves for challenges and has the ability to work
-              outside my comfort zone. Possess fluent communication skills and easy adaptability to situations to learn new things. </div>
+  <body>
+    <div id="colorlib-page">
+      <div class="container-wrap">
+        <a
+          href="#"
+          class="js-colorlib-nav-toggle colorlib-nav-toggle"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-expanded="false"
+          aria-controls="navbar"
+          ><i></i>
+        </a>
+        <aside
+          id="colorlib-aside"
+          role="complementary"
+          class="border js-fullheight"
+        >
+          <div class="text-center">
+            <div
+              class="author-img"
+              style="background-image: url(images/about.jpeg)"
+            ></div>
+            <h1 id="colorlib-logo"><a href="index.html">Vivek Haridas</a></h1>
+            <span class="position">
+              Data Science Aspirant <br />in New York City</span
+            >
           </div>
-          <div class="col-md-5 border-right" style="background-color: #b4b4b4;">
-              <div class="p-3 py-5">
-                  <div class="row mt-1">
-                      <div class="col-md-12">
-                        <h5 class="text-right">Education</h5>
-                        <b>Bachelors in Artificial Intelligence Engineering</b>, 2019 to present<br>
-                        <i>Amrita Vishwa Vidyapeetham, Kollam, India </i><br>
-                        CGPA as of 6th Semester - 9.19 <br>
-                      </div>
-                      <div class="col-md-12" style="margin-top: 10px;">
-                        <b >X (AISSE) and XII (AISSCE)</b>,  2013 to 2019<br>
-                        <i>Global Public School, Cochin, India </i>    <br>
-                        CBSE Board X (2017) - Scored 10 CGPA<br>
-                        CBSE Board XII (2019) - Scored 91.6 %<br>
-                      </div>
-                  </div>
-                <div class="row mt-2">
-                  <div class="col-md-12">
-                    <h5 class="text-right">Technical Skills</h5>
-                    <ul style="margin-bottom: 0;">
-                      <li>Python, Java, R, C++, MATLAB</li>
-                      <li>Machine Learning, Data Structures and Algorithms</li>
-                      <li>HTML, CSS, Javascript (NodeJS, ReactJS)</li>
-                      <li>MongoDB, PostgresSQL, Apache(Spark, Kafka)</li>
-                    </ul>                      
-                  </div>
-                </div>
-                <div class="row mt-3">
-                  <div class="col-md-12">
-                    <h5 class="text-right">Professional Experience</h5>
-                        <b>Software Developer</b>, 02/2022 to 05/2022<br>
-                        <i>way.com</i>,
-                        A fintech company with a turnover of 50 million USD+ and 200+ employees.<br>
-                        <b>Worked on Carwash Service Automation</b>				 <br>			
-                        Building the server for the carwash service automation.<br>
-                        •	Setup Kafka server as a message bus system. Used Redis Database to read data from the NCD Module. Build a simple REST API that shows details of the NCD Module, Kafka server, etc.<br>
-                        •	Setup the backbone of the carwash server. 
-                  </div>
-                </div>
-                <div class="row mt-3">
-                  <div class="col-md-12">
-                    <h5 class="text-right">FSD Projects</h5>
-                    <ul style="margin-bottom: 0;">
-                      <li><a style="text-decoration: none; color: black;" target="_blank" href="https://vivekharidas-01.github.io/TicTacToe/">TicTacToe</a></li>
-                      <li><a style="text-decoration: none; color: black;" target="_blank" href="https://vivekharidas-01.github.io/Wordle/">Wordle</a></li>
-                    </ul>
+          <nav id="colorlib-main-menu" role="navigation" class="navbar">
+            <div id="navbar" class="collapse">
+              <ul>
+                <li class="active">
+                  <a href="#" data-nav-section="home">Home</a>
+                </li>
+                <li><a href="#" data-nav-section="about">About</a></li>
+                <li><a href="#" data-nav-section="services">Coursework</a></li>
+                <li><a href="#" data-nav-section="skills">Skills</a></li>
+                <li><a href="#" data-nav-section="education">Education</a></li>
+                <li>
+                  <a href="#" data-nav-section="experience">Experience</a>
+                </li>
+                <li><a href="#" data-nav-section="work">Projects</a></li>
+                <li><a href="#" data-nav-section="contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
 
+          <div class="colorlib-footer">
+            <ul>
+              <li>
+                <a href="#"><i class="icon-facebook2"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icon-twitter2"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icon-instagram2"></i></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/vivek-haridas-2847521b6/"
+                  target="_blank"
+                >
+                  <i class="icon-linkedin2"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+
+        <div id="colorlib-main">
+          <section id="colorlib-hero" class="js-fullheight" data-section="home">
+            <div class="flexslider js-fullheight">
+              <ul class="slides">
+                <li style="background-image: url(images/img_bg_1.jpg)">
+                  <div class="overlay"></div>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div
+                        class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text"
+                      >
+                        <div class="slider-text-inner js-fullheight">
+                          <div class="desc">
+                            <h1>Hi! <br />I'm Vivek</h1>
+                            <h2
+                              style="
+                                background-color: rgba(255, 255, 255, 0.7);
+                                font-weight: 500;
+                                padding: 10%;
+                              "
+                            >
+                              Let's Grab Coffee and Dive into AI, Computer
+                              Vision, Natural Language Processing, and Large
+                              Language Models.
+                            </h2>
+                            <!-- <p>
+                              <a class="btn btn-primary btn-learn"
+                                >Download CV <i class="icon-download4"></i
+                              ></a>
+                            </p> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="colorlib-about" data-section="about">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div class="col-md-12">
+                  <div
+                    class="row row-bottom-padded-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="col-md-12">
+                      <div class="about-desc">
+                        <span class="heading-meta">About Us</span>
+                        <h2 class="colorlib-heading">Who Am I?</h2>
+                        <p>
+                          <strong>Hi I'm Vivek Haridas</strong> a dynamic
+                          graduate student currently pursuing a Master's in Data
+                          Science. My professional journey is fueled by a
+                          passion for leveraging data-driven decision-making to
+                          enhance the quality of life for individuals. Known for
+                          my dedication and a penchant for challenges, I thrive
+                          in environments that push me beyond my comfort zone.
+                          Adept at clear communication and quick adaptability, I
+                          possess a keen interest in working collaboratively,
+                          empathizing with team members, and collectively
+                          overcoming obstacles.
+                        </p>
+                        <p>
+                          My passion lies in the expansive domains of Data
+                          Science, Machine Learning, Deep Learning, Natural
+                          Language Processing, Computer Vision, and the
+                          intricate landscapes of Data Analysis and Business
+                          Intelligence. I bring not only technical skills but
+                          also a strong team-oriented mindset, making me a
+                          valuable asset for projects that demand innovation and
+                          effective collaboration. I am poised to contribute my
+                          skills and determination to impactful initiatives that
+                          harness the power of data for meaningful outcomes.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInLeft"
+                    >
+                      <div class="services color-1">
+                        <span class="icon2"><i class="icon-bulb"></i></span>
+                        <h3>
+                          AI and ML <br />
+                          Enthusiast
+                        </h3>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInRight"
+                    >
+                      <div class="services color-2">
+                        <span class="icon2"
+                          ><i class="icon-globe-outline"></i
+                        ></span>
+                        <h3>Data Driven Decision Maker</h3>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInTop"
+                    >
+                      <div class="services color-3">
+                        <span class="icon2"><i class="icon-data"></i></span>
+                        <h3>
+                          Strong <br />
+                          Team Player
+                        </h3>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInBottom"
+                    >
+                      <div class="services color-4">
+                        <span class="icon2"><i class="icon-phone3"></i></span>
+                        <h3>Easy to <br />Connect</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-md-12 animate-box"
+                      data-animate-effect="fadeInLeft"
+                    ></div>
                   </div>
                 </div>
               </div>
-          </div>          
-          <div class="col-md-4" style="background-color: #f0f0f0;">
-              <div class="p-3 py-5">
-                  <h4 class="text-center">Projects</h4>
-                    <b>Texture Segmentation</b>, <i>11/2020 to 12/2020 </i><br>
-                    Texture segmentation using the factorisation algorithms, which consists of
-                    multiple matrix decomposition techniques. Some methods implemented
-                    include generating spectral histograms, low-rank approximation, singular
-                    value decomposition and the use of non-negativity constraints.<br>
-                    <b>Face Anonymization</b>, <i>11/2021 to 12/2021</i><br>
-                    Python CLI application that is capable of detecting faces and anonymizing it.
-                    The project detects frontal faces with haar cascade filters and then anonymizes it with
-                    different techniques. These techniques include : Blurring. Pixelating and Masking. <br>
-                    <b>Image Captioning System</b>, <i>03/2022 to 05/2022 </i><br>
-                    It is a problem that involves generating descriptive text given an image in
-                    natural language. It combines both computer vision and natural language
-                    processing. We present a deep recurrent network that incorporates CNN for
-                    image feature extraction with Long Short Term Memory (LSTM) trained on
-                    the Flickr8K dataset.<br>
-                    <b>Chatbot</b>, <i>03/2022 to 05/2022</i><br>
-                    Built a chatbot using natural language processing and deep learning models
-                    on the Cornell Movie-Dialogs Corpus. Used a Seq2Seq model with Luong
-                    attention mechanism and finally a greedy search method to build the chatbot.
+            </div>
+          </section>
+
+          <section class="colorlib-services" data-section="services">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">What I Learnt?</span>
+                  <h2 class="colorlib-heading">
+                    Favorite Coursework Highlights:
+                  </h2>
+                </div>
               </div>
-          </div>
+              <div class="row row-pt-md">
+                <div class="col-md-4 text-center animate-box">
+                  <div class="services color-1">
+                    <span class="icon">
+                      <i class="icon-bulb"></i>
+                    </span>
+                    <div class="desc">
+                      <h3>
+                        Python for <br />
+                        Machine Learning
+                      </h3>
+                      <p>
+                        Regression <br />
+                        Classification <br />
+                        Clustering <br />
+                        Ensemble Methods <br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                  <div class="services color-2">
+                    <span class="icon">
+                      <i class="icon-data"></i>
+                    </span>
+                    <div class="desc">
+                      <h3>Natural Language Processing</h3>
+                      <p>
+                        Web Scraping <br />
+                        Text Preprocessing <br />
+                        Feature Engineering <br />
+                        Model Building
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                  <div class="services color-3">
+                    <span class="icon">
+                      <i class="icon-phone3"></i>
+                    </span>
+                    <div class="desc">
+                      <h3>Deep Learning for Image Processing</h3>
+                      <p>
+                        Perceptrons <br />
+                        Neural Networks <br />
+                        Transformers <br />
+                        Gradient Boosting
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                  <div class="services color-4">
+                    <span class="icon">
+                      <i class="icon-layers2"></i>
+                    </span>
+                    <div class="desc">
+                      <h3>Reinforcement Learning</h3>
+                      <p>
+                        Markov Decision Process <br />
+                        Deep Q Network <br />
+                        Monte Carlo <br />
+                        Temporal Difference Learning<br />
+                        SARSA
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                  <div class="services color-5">
+                    <span class="icon">
+                      <i class="icon-data"></i>
+                    </span>
+                    <div class="desc">
+                      <h3>Probability Theory</h3>
+                      <p>
+                        Probability Distributions<br />
+                        Conditional Probability <br />
+                        Bayesian Probability <br />
+                        Random Variables and Expectation <br />
+                        Limit Theorems <br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center animate-box">
+                  <div class="services color-6">
+                    <span class="icon">
+                      <i class="icon-phone3"></i>
+                    </span>
+                    <div class="desc">
+                      <h3>Marketing Analytics</h3>
+                      <p>
+                        CLV/PLV <br />
+                        A/B Testing <br />
+                        ANOVA Testing <br />
+                        Price Elasticity <br />
+                        Conjoint Analysis <br />
+                        Page Rank <br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="colorlib-skills" data-section="skills">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">My Specialty</span>
+                  <h2 class="colorlib-heading animate-box">My Skills</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-md-12 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <p></p>
+                </div>
+                <!-- Programming Languages -->
+                <div class="col-md-12">
+                  <h4>Programming Languages</h4>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>Python</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-1"
+                        role="progressbar"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 90%"
+                      >
+                        <span>90%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>SQL</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-2"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      >
+                        <span>80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>R</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-3"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 65%"
+                      >
+                        <span>65%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Java</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-4"
+                        role="progressbar"
+                        aria-valuenow="90"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 70%"
+                      >
+                        <span>70%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>SAS</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-5"
+                        role="progressbar"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 60%"
+                      >
+                        <span>60%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>MATLAB</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-6"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 60%"
+                      >
+                        <span>60%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Front End (HTML, CSS, JS)</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-7"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      >
+                        <span>80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <h4>Frameworks</h4>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>NumPy</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-2"
+                        role="progressbar"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 90%"
+                      >
+                        <span>90%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Pandas</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-3"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 90%"
+                      >
+                        <span>90%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>scikit-learn</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-4"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 85%"
+                      >
+                        <span>85%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>PyTorch</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-5"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      >
+                        <span>80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>TensorFlow</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-6"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      >
+                        <span>80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>nltk</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-1"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 85%"
+                      >
+                        <span>85%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>OpenCV</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-2"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      >
+                        <span>80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>Hugging Face</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-3"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      >
+                        <span>80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>Tidyverse</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-4"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 70%"
+                      >
+                        <span>70%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mathematics -->
+                <div class="col-md-12">
+                  <h4>Mathematics</h4>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>Linear Algebra</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-5"
+                        role="progressbar"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 85%"
+                      >
+                        <span>85%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>Probability</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-6"
+                        role="progressbar"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 85%"
+                      >
+                        <span>85%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Statistics</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-1"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      >
+                        <span>80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>Calculus</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-2"
+                        role="progressbar"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 75%"
+                      >
+                        <span>75%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <h4>Machine Learning Techniques</h4>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Regression</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-3"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 90%"
+                      >
+                        <span>90%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Classification</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-4"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 90%"
+                      >
+                        <span>90%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Clustering</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-5"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 90%"
+                      >
+                        <span>90%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Ensemble Methods</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-6"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      >
+                        <span>80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <h4>Big Data Processing</h4>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>Spark</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-1"
+                        role="progressbar"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 85%"
+                      >
+                        <span>85%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>Kafka</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-2"
+                        role="progressbar"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 85%"
+                      >
+                        <span>85%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="progress-wrap">
+                    <h3>Hadoop</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-3"
+                        role="progressbar"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 75%"
+                      >
+                        <span>75%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="col-md-12">
+                  <h4>Tools</h4>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Tableau</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-4"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      >
+                        <span>80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Microsoft Office (Excel, Word, PowerPoint)</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-5"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 90%"
+                      >
+                        <span>90%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Windows/Linux OS</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-6"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      >
+                        <span>80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Git Version Control</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-1"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      >
+                        <span>80%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div class="progress-wrap">
+                    <h3>Jupyter Notebook/R Studio</h3>
+                    <div class="progress">
+                      <div
+                        class="progress-bar color-2"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 85%"
+                      >
+                        <span>85%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="colorlib-education" data-section="education">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">Education</span>
+                  <h2 class="colorlib-heading animate-box">Degrees Pursued</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-md-12 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div class="fancy-collapse-panel">
+                    <div
+                      class="panel-group"
+                      id="accordion"
+                      role="tablist"
+                      aria-multiselectable="true"
+                    >
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                            <a
+                              data-toggle="collapse"
+                              data-parent="#accordion"
+                              href="#collapseOne"
+                              aria-expanded="true"
+                              aria-controls="collapseOne"
+                            >
+                              <p style="padding: 0px">
+                                Master of Science in Data Science (Expected Jun
+                                2025)<br /><br />
+                                Stevens Institute of Technology, Hoboken, NJ
+                              </p>
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseOne"
+                          class="panel-collapse collapse in"
+                          role="tabpanel"
+                          aria-labelledby="headingOne"
+                        >
+                          <div class="panel-body">
+                            <div class="row">
+                              <div class="col-md-12">
+                                <h5>Completed Coursework:</h5>
+                                <ul>
+                                  <li>Web Mining</li>
+                                  <li>Marketing Analytics</li>
+                                  <li>Introduction to Probability Theory</li>
+                                </ul>
+                              </div>
+                              <div class="col-md-12">
+                                <h5>Current Coursework:</h5>
+                                <ul>
+                                  <li>Statistical Methods</li>
+                                  <li>Applied Machine Learning</li>
+                                  <li>Optimization for Data Science</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a
+                              class="collapsed"
+                              data-toggle="collapse"
+                              data-parent="#accordion"
+                              href="#collapseTwo"
+                              aria-expanded="false"
+                              aria-controls="collapseTwo"
+                              >Bachelor of Technology in Computer Science -
+                              Artificial Intelligence (Jun 2023)<br /><br />
+                              Amrita School of Engineering, Kerala, India (GPA –
+                              3.95/4)
+                            </a>
+                          </h4>
+                        </div>
+                        <div
+                          id="collapseTwo"
+                          class="panel-collapse collapse"
+                          role="tabpanel"
+                          aria-labelledby="headingTwo"
+                        >
+                          <div class="panel-body">
+                            <div class="row">
+                              <div class="col-md-12">
+                                <h5>Completed Coursework:</h5>
+                                <ul>
+                                  <li>Data Structures and Algorithms</li>
+                                  <li>AI in Natural Language Processing</li>
+                                  <li>
+                                    Deep Learning for Signal and Image
+                                    Processing
+                                  </li>
+                                  <li>Financial Time Series Analysis</li>
+                                  <li>Reinforcement Learning</li>
+                                  <li>Big Data Analytics</li>
+                                  <li>Big Data and Database Management</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="colorlib-experience" data-section="experience">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">Experience</span>
+                  <h2 class="colorlib-heading animate-box">Work Experience</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="timeline-centered">
+                    <article
+                      class="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                    >
+                      <div class="timeline-entry-inner">
+                        <div class="timeline-icon color-1">
+                          <i class="icon-pen2"></i>
+                        </div>
+
+                        <div class="timeline-label">
+                          <h2>
+                            <a href="#">Software Develeoper Intern</a>
+                            <span>Feb 2022 - May 2022</span>
+                          </h2>
+                          <ul>
+                            <li>
+                              Built a server to automate the car wash service by
+                              setting up the server as a message bus system.
+                            </li>
+                            <li>
+                              Utilized Redis Database to read customer data from
+                              the on-site NCD Module.
+                            </li>
+                            <li>
+                              Established a simple REST API that shows details
+                              of the NCD Module, Kafka server and set up the
+                              backbone of the car wash. server
+                            </li>
+                            <li>
+                              The designed server was availed by customers at
+                              the car wash service without the need for an
+                              attendant on site.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      class="timeline-entry begin animate-box"
+                      data-animate-effect="fadeInBottom"
+                    >
+                      <div class="timeline-entry-inner">
+                        <div class="timeline-icon color-none"></div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="colorlib-work" data-section="work">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta"
+                    >My Projects (More Added Soon!!)</span
+                  >
+                  <h2 class="colorlib-heading animate-box">
+                    Major Coursework Projects
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="col-md-12">
+                  <p class="work-menu">
+                    <span><a href="#" class="active">Machine Learning</a></span>
+                    <span><a href="#">Natural Language Processing</a></span>
+                    <span><a href="#">Computer Vision</a></span>
+                    <span><a href="#">Reinforcement Learning</a></span>
+                    <span><a href="#">Full Stack Dev</a></span>
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div
+                    class="project machine-learning"
+                    style="background-image: url(images/mlimg-1.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3>
+                          <a
+                            href="https://github.com/VivekHaridas-01/Data-Science-and-Machine-Learning-Capstone-Project"
+                            target="_blank"
+                            >Space X Falcon 9 First Stage Landing Prediction ML
+                            Capstone Project</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInBottom"
+                >
+                  <div
+                    class="project machine-learning"
+                    style="background-image: url(images/mlimg-4.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3>
+                          <a
+                            href="https://github.com/VivekHaridas-01/stock-price-prediction"
+                            target="_blank"
+                            >Comparision of Stock Price Prediciton Models</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInTop"
+                >
+                  <div
+                    class="project computer-vision"
+                    style="background-image: url(images/mlimg-2.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3>
+                          <a
+                            href="https://github.com/VivekHaridas-01/texture-segmentation"
+                            >Texture Segmentation on Aerial Imagery</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div
+                    class="project computer-vision"
+                    style="background-image: url(images/mlimg-3.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3>
+                          <a
+                            href="https://github.com/VivekHaridas-01/Face-Anonymization"
+                            target="_blank"
+                            >Face Anonymizer</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div
+                    class="project natural-language-processing"
+                    style="background-image: url(images/mlimg-5.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3>
+                          <a
+                            href="https://github.com/VivekHaridas-01/Automatic-Short-Answer-Grading"
+                            target="_blank"
+                            >Automation of Short Answer Grading Tecniques</a
+                          >
+                        </h3>
+                        <span
+                          ><a
+                            href="https://ieeexplore.ieee.org/document/10179759"
+                            target="_blank"
+                          >
+                            IEEE Paper
+                          </a></span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div
+                    class="project reinforcement-learning"
+                    style="background-image: url(images/mlimg-6.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3>
+                          <a
+                            href="https://github.com/VivekHaridas-01/Connect4-RL/tree/main"
+                            target="_blank"
+                            >Monte Carlo Tree Search to play a game of
+                            Connect4</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div
+                    class="project full-stack-dev"
+                    style="background-image: url(images/img-7.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3>
+                          <a
+                            href="https://github.com/VivekHaridas-01/FlightBookingSystem"
+                            target="_blank"
+                            >A flight booking system</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div
+                    class="project full-stack-dev"
+                    style="background-image: url(images/img-8.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3>
+                          <a
+                            href="https://github.com/VivekHaridas-01/Wordle"
+                            target="_blank"
+                            >A game of Wordle</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 animate-box"
+                  data-animate-effect="fadeInRight"
+                >
+                  <div
+                    class="project full-stack-dev"
+                    style="background-image: url(images/img-9.jpg)"
+                  >
+                    <div class="desc">
+                      <div class="con">
+                        <h3>
+                          <a
+                            href="https://github.com/VivekHaridas-01/TicTacToe"
+                            target="_blank"
+                            >A game of Tic Tac Toe</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="colorlib-contact" data-section="contact">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div
+                  class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span class="heading-meta">Get in Touch</span>
+                  <h2 class="colorlib-heading">Contact</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-globe-outline"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p>
+                        <a
+                          href="https://www.linkedin.com/in/vivek-haridas-2847521b6/"
+                          target="_blank"
+                          >linkedin.com/in/vivek-haridas</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-map"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p>
+                        1808 West Street, Suite 2F, Union City, New Jersey NJ
+                        07087
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="colorlib-feature colorlib-feature-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="colorlib-icon">
+                      <i class="icon-phone"></i>
+                    </div>
+                    <div class="colorlib-text">
+                      <p><a href="tel://">+1 201 268 9479</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- end:colorlib-main -->
       </div>
-  </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+      <!-- end:container-wrap -->
+    </div>
+    <!-- end:colorlib-page -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- sticky_kit plugin -->
+    <script src="js/sticky-kit.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Counters -->
+    <script src="js/jquery.countTo.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
   </body>
 </html>
