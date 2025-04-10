@@ -1,0 +1,37 @@
+<svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0.259336" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Corner dotted frames -->
+  <rect x="4" y="4" width="8" height="8" stroke="url(#goldGradient)" stroke-width="2" fill="none"/>
+  <rect x="88" y="4" width="8" height="8" stroke="url(#goldGradient)" stroke-width="2" fill="none"/>
+  <rect x="4" y="88" width="8" height="8" stroke="url(#goldGradient)" stroke-width="2" fill="none"/>
+  <rect x="88" y="88" width="8" height="8" stroke="url(#goldGradient)" stroke-width="2" fill="none"/>
+
+  <!-- Dotted connectors -->
+  <line x1="8" y1="12" x2="8" y2="30" stroke="url(#goldGradient)" stroke-width="2"/>
+  <line x1="92" y1="12" x2="92" y2="30" stroke="url(#goldGradient)" stroke-width="2"/>
+  <line x1="12" y1="92" x2="30" y2="92" stroke="url(#goldGradient)" stroke-width="2"/>
+  <line x1="70" y1="92" x2="88" y2="92" stroke="url(#goldGradient)" stroke-width="2"/>
+  <line x1="12" y1="8" x2="30" y2="8" stroke="url(#goldGradient)" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="70" y1="8" x2="88" y2="8" stroke="url(#goldGradient)" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- Bar chart -->
+  <rect x="20" y="60" width="3" height="15" fill="url(#goldGradient)" />
+  <rect x="26" y="50" width="3" height="25" fill="url(#goldGradient)" />
+  <rect x="32" y="55" width="3" height="20" fill="url(#goldGradient)" />
+  <rect x="38" y="65" width="3" height="10" fill="url(#goldGradient)" />
+
+  <!-- Pie chart outline -->
+  <circle cx="70" cy="60" r="18" stroke="url(#goldGradient)" stroke-width="3" fill="none" />
+
+  <!-- Pie chart slice (1/4 filled) -->
+  <path d="M70 60 L70 42 A18 18 0 0 1 88 60 Z" fill="url(#goldGradient)" />
+
+  <!-- Inner cutout (optional style element) -->
+  <circle cx="70" cy="60" r="10" fill="none" stroke="url(#goldGradient)" stroke-width="2"/>
+</svg>
