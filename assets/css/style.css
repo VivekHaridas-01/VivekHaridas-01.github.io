@@ -589,6 +589,27 @@ main {
 
 .tech-stack-item img:hover { filter: grayscale(0); }
 
+/* Tech Stack Tooltips */
+.tech-stack-item a {
+  position: relative;
+  display: inline-block;
+}
+
+.tech-stack-item a:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  background: var(--eerie-black-1);
+  color: var(--vegas-gold);
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
 
 
 
