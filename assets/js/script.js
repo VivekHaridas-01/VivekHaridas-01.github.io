@@ -23,8 +23,8 @@ const filterItems = document.querySelectorAll("[data-filter-item]");
 
 const filterFunc = function (selectedValue) {
   for (let i = 0; i < filterItems.length; i++) {
-    const itemCategory = filterItems[i].dataset.category.toLowerCase();
-    if (selectedValue === "all" || selectedValue === itemCategory) {
+    const itemCategories = filterItems[i].dataset.category.toLowerCase().split(',').map(cat => cat.trim());
+    if (selectedValue === "all" || itemCategories.includes(selectedValue)) {
       filterItems[i].classList.add("active");
     } else {
       filterItems[i].classList.remove("active");
