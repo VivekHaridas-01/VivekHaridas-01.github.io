@@ -846,20 +846,49 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(var(--scale));
-  font-size: 20px;
-  padding: 18px;
+  font-size: 16px;
+  padding: 20px;
   border-radius: 12px;
   opacity: 0;
   z-index: 1;
   transition: var(--transition-1);
+  max-width: 280px;
+  width: 100%;
 }
 
 .project-item > a:hover .project-item-icon-box {
   --scale: 1;
   opacity: 1;
+  background: var(--onyx);
+  box-shadow: var(--shadow-3);
 }
 
-.project-item-icon-box ion-icon { --ionicon-stroke-width: 50px; }
+/* Project description styling */
+.project-description {
+  text-align: center;
+  color: var(--white-2);
+}
+
+.project-description p {
+  margin-bottom: 15px;
+  line-height: 1.4;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+}
+
+.arrow-icon {
+  display: inline-block;
+  font-size: 24px;
+  color: var(--orange-yellow-crayola);
+  font-weight: bold;
+  transform: rotate(-45deg);
+  transition: var(--transition-1);
+}
+
+.project-item > a:hover .arrow-icon {
+  transform: rotate(-45deg) translateX(3px);
+  color: var(--vegas-gold);
+}
 
 .project-img img {
   width: 100%;
@@ -1101,6 +1130,19 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .tech-stack-item { min-width: calc(33.33% - 10px); }
+
+  /**
+   * PORTFOLIO
+   */
+
+  .project-item-icon-box {
+    max-width: 200px;
+    padding: 16px;
+  }
+
+  .project-description p {
+    font-size: var(--fs-7);
+  }
 
 
 
@@ -1405,6 +1447,16 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
+  /* Project descriptions responsive */
+  .project-item-icon-box {
+    max-width: 240px;
+    padding: 18px;
+  }
+
+  .project-description p {
+    font-size: var(--fs-7);
+  }
+
 
 
   /**
@@ -1520,6 +1572,16 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .project-list { grid-template-columns: repeat(3, 1fr); }
+
+  /* Project descriptions responsive */
+  .project-item-icon-box {
+    max-width: 300px;
+    padding: 22px;
+  }
+
+  .project-description p {
+    font-size: var(--fs-6);
+  }
 
 
 
